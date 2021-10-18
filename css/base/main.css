@@ -33,12 +33,6 @@ body, html {
   scroll-behavior: smooth;
 }
 
-#twitch-embed {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .logo {
   display: block;
   margin: auto;
