@@ -5,12 +5,22 @@ body, html {
   font-family: 'Roboto', sans-serif;
   scroll-behavior: smooth;
 }
+.submenus{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
+}
 
 .logo{
   display: block;
   margin: auto;
   width: 20%;
+}
+.logofooter{
+  display: block;
+  margin: auto;
+  width: 10%;
 }
 
 @mixin button($type) {

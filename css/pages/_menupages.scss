@@ -95,7 +95,15 @@
       }
     }
   }
-  
+ #twitch-embed{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .logoTwitch{
+   width: 100px;
+   margin-left: 50px;
+ }
   .submenus {
     display: grid;
   

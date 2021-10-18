@@ -33,10 +33,22 @@ body, html {
   scroll-behavior: smooth;
 }
 
+.submenus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .logo {
   display: block;
   margin: auto;
   width: 20%;
+}
+
+.logofooter {
+  display: block;
+  margin: auto;
+  width: 10%;
 }
 
 .container {
@@ -402,6 +414,17 @@ body, html {
 }
 .menu__btn:hover .menu__like--noBg {
   opacity: 0;
+}
+
+#twitch-embed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoTwitch {
+  width: 100px;
+  margin-left: 50px;
 }
 
 .submenus {
